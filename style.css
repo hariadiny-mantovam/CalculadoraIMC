@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Quicksand&family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+}
+
+header{
+    color: #F37335;
+    font: normal 18pt 'Ubuntu';
+}
+
+section{
+    font: normal 15pt 'Quicksand';
+    background: #FDC830;
+    background: -webkit-linear-gradient(to top, #F37335, #FDC830); 
+    background: linear-gradient(to top, #F37335, #FDC830);
+    width: 550px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    color: #fff;  
+}
+
+input{
+    font: normal 12pt 'Kufam';
+    color: #F37335;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#botao{
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font: normal 12pt 'Kufam';
+}
+
+footer{
+    padding: 15px;
+    font-style: italic;
+}
+
